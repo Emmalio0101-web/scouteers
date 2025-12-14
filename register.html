@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scout-Registeration.</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <nav class="head">
+         <img src="/images/logo.png" alt="">
+        <h1>SCOUT</h1>
+        <hr>
+    </nav>
+    <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <div class="contact-left-title">
+            <h2>List Your Project On Scout</h2>
+            <hr>
+            <p>share your details below and we'll review your listing request.</p>
+        </div>
+         <input type="hidden" name="access_key" value="c4d87e78-2cf7-46a4-b250-07cefd73d8bd">
+        <input type="text" name="name" placeholder="Project/Platform Name" class="contact-input" required>
+        <input type="url" name="website" placeholder="website/DOCs(URL)link" class="contact-input" required>
+         <input type="text" name="x" placeholder="Name" class="contact-input" required>
+          <input type="email/text" name="x" placeholder="Email/Telegram" class="contact-input" required>
+           <input type="text" name="service" placeholder="Service type(launchpad, Audit, infrastructure etc.)" class="contact-input" required>
+           <input type="text" name="Project-Type" placeholder="Project-Type(e.g Defi, GameFi, NFT, AI,etc.)" class="contact-input" required>
+            <input type="text" name="project-stage" placeholder="Preferred Project Stage(idea, MVP, Raising, Live, Any)" class="contact-input" required>
+        <textarea name="message" placeholder="Project Description" class="contact-input" required></textarea>
+        <input type="file" name="logo" placeholder="Project-Logo(optional)" class="contact-input">
+        <button type="submit">Submit</button>
+    </form>
+
+   </div>
+</body>
+</html>

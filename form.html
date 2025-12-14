@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <nav class="head">
+        <img src="/images/logo.png" alt="">
+        <h1>SCOUT</h1>
+        <hr>
+    </nav>
+   <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+        <div class="contact-left-title">
+            <h2>apply to connect with provider</h2>
+            <hr>
+        </div>
+         <input type="hidden" name="access_key" value="c4d87e78-2cf7-46a4-b250-07cefd73d8bd">
+        <input type="text" name="name" placeholder="Project-Name" class="contact-input" required>
+        <input type="url" name="website" placeholder="website/whitepaper(URL)" class="contact-input" required>
+        <input type="url" name="x" placeholder="Official X(twitter)Link" class="contact-input" required>
+         <input type="text" name="x" placeholder="Name" class="contact-input" required>
+          <input type="email/text" name="x" placeholder="Email/Telegram" class="contact-input" required>
+          <label for="Project-Type">Choose Project-Type:</label>
+          <select name="Project-Type" id="Project-Type">
+            <option value="Defi">DeFi</option>
+            <option value="GameFi">GameFi</option>
+            <option value="NFT">NFT</option>
+            <option value="AI">AI</option>
+            <option value="other">Other</option>
+          </select>
+        <textarea name="message" placeholder="Project Description" class="contact-input" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+      <div class="contact-right">
+        <img src="/images/bali2.jpg" alt="">
+      </div>
+   </div><br>
+   <br>
+<!--
+    <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="c4d87e78-2cf7-46a4-b250-07cefd73d8bd">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
+-->
+  <footer>
+         <div class="footer-container container">
+        <p>&copy;All Rights Reserved By @SCOUT. <br> Developer:@Emmalio_Dev.(whatsapp:+2348101602771)</p>
+    </div>
+    </footer>
+</body>
+</html>
